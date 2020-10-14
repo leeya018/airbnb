@@ -1,0 +1,67 @@
+.avelablity{
+    display: flex;
+}
+
+.titleDate{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleDate h3{
+    margin: 0;
+}
+
+.red {
+    color: red
+}
+
+.prevDate:hover {
+    color: blue
+} 
+
+.prevDate:click {
+    color: gray
+} 
+
+.nextDate:hover {
+    color: blue
+} 
+
+.nextDate:click {
+    color: gray
+} 
+
+.day:hover {
+    background-color: salmon;
+}
+
+.days{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formDateAv:hover {
+    background-color: #d1d1d1;
+}
+
+.toDateAv:hover {
+    background-color: #d1d1d1;
+}
+
+.inputDates{
+    display: flex;
+    flex-direction: column;
+     padding-left: 5%;
+}
+
+.inputDates input{
+    height: 3em;
+    width: 96%;
+}
+
+.cal{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-left: 1%;
+}

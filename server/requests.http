@@ -1,0 +1,27 @@
+GET http://localhost:3006/api/homes/5f3a8f6747db13f174f8e7e1
+
+###
+
+GET http://localhost:3006/api/homes
+
+###
+
+
+POST http://localhost:3006/api/homes/book/5f3a8f6747db13f174f8e7e2
+
+{
+  "checkIn": "2020-8-26",
+  "checkOut": "2020-8-31",
+  "guestsNum": 1 
+}
+###
+
+POST http://localhost:3006/api/homes/review/5f3a8f6747db13f174f8e7e2
+
+{
+  "name":"lee",
+  "content": "this is a godd home",
+  "rating": 2,
+  "date": "8/17/20"
+}
+
